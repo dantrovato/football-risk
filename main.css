@@ -1,29 +1,35 @@
+body {
+  display: flex;
+}
+
 main {
   margin: auto;
   height: 680px;
-  width: 78%;
+  width: 75%;
   background-image: url("./images/football_pitch.jpeg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: 1100px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
 }
 
 div {
-  width: 17%;
-  grid-template-columns: 1fr;
-  background-color: rgba(23, 23, 23, 0.5);
+  color: white;
+  font-size: 1.5rem;
   display: flex;
-
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.0001px solid rgba(23, 23, 23, 0.8);
 }
 
-.red_team {
-  align-items: flex-end;
+.sidebar {
+  background-color: brown;
+  width: 12.5%;
+  height: 680px;
 }
 
 img {
-  height: 70px;
-  width: 30px;
+  height: 4rem;
+  width: 70%;
 }

@@ -1,0 +1,29 @@
+main {
+  margin: auto;
+  height: 680px;
+  width: 78%;
+  background-image: url("./images/football_pitch.jpeg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 1100px;
+  display: flex;
+}
+
+div {
+  width: 17%;
+  grid-template-columns: 1fr;
+  background-color: rgba(23, 23, 23, 0.5);
+  display: flex;
+
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.red_team {
+  align-items: flex-end;
+}
+
+img {
+  height: 70px;
+  width: 30px;
+}
